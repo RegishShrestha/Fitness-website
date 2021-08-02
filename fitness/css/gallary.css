@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana:;
+}
+img{
+	float: right;
+	width: 200px;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../7.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	transition: 0.8s ease;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+ul li a:hover{
+	background-color: #E11E36;
+	color: black;
+	padding: 10px 20px ;
+	transition: 0.6s ease;
+}
+ul li.active{
+		background-color: #E11E36;
+	    color: black;
+	    padding: 12px 22px; 
+}
+.logo img{
+	float: left;
+	width: 100px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 70px;
+	font-family: cursive;
+	transition: 0.8s ease;
+}
+.titletwo{
+	position: absolute;
+	top: 20%;
+	left: 80%;
+	transform: translate(-20%,-80%);
+}
+.titletwo h2{
+	background-color:transparent;
+	color: #E11E36;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.button{
+    position: absolute;
+	top: 95%;
+	left:50%;
+	transform: translate(-50%,-5%);
+}
+.btn{
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+.btn:hover{
+	background-color: #E11E36;
+	color: black;
+	padding: 10px 20px ;
+	transition: 0.6s ease;
+}
+.button1{
+	position: absolute;
+	top: 40%;
+	left:85%;
+	transform: translate(-15%,-60%);
+
+}
+.btn1{
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	font-family: verdona;
+	font-size: 20px;
+}
+.btn1:hover{
+	background-color: #E11E36;
+	color: black;
+	padding: 10px 20px ;
+	transition: 0.6s ease;
+}
+p1{
+	background-color: transparent;
+	color: white;
+	transition: 0.6s ease;
+	position: absolute;
+    top: 25%;
+	left: 80%;
+	transform: translate(-20%,-75%);
+}
+p2{
+	background-color: transparent;
+	color: white;
+	transition: 0.6s ease;
+	position: absolute;
+    top: 30%;
+	left: 80%;
+	transform: translate(-20%,-70%);
+}
